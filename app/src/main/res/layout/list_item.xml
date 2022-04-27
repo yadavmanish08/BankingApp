@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="196dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        tools:text="Manish Yadav" />
+
+    <TextView
+        android:id="@+id/currentBalance"
+        android:layout_width="175dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        tools:text="123434" />
+
+</LinearLayout>

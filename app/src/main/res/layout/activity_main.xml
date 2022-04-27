@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/usersButton"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/all_users"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/transactionsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/transactionsButton"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/red"
+        android:layout_marginBottom="124dp"
+        android:text="@string/all_transactions"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
